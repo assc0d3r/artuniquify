@@ -1,15 +1,6 @@
 #----------------------------------- https://github.com/m4mallu/clonebot --------------------------------------------#
 import os
 import logging
-from decouple import config
-
-APP_ID = config("APP_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-AUTH_USERS = config(" AUTH_USERS")
-TG_USER_SESSION = config("TG_USER_SESSION")
-TG_BOT_TOKEN = config(" TG_BOT_TOKEN")
-
-
 
 logging.basicConfig(
     level=logging.INFO,
